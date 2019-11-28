@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/appBackGround"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/appTitleText"
+        android:padding="5dp"
+        android:layout_margin="7dp"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:background="@drawable/border_image"
+        android:padding="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/main"
+        android:contentDescription="@string/app_name" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/birds"
+                android:background="@drawable/border_image"
+                android:padding="3dp"
+                android:layout_width="180dp"
+                android:layout_margin="7dp"
+                android:layout_height="125dp"
+                android:src="@drawable/birds"
+                android:contentDescription="@string/category1"/>
+
+            <ImageView
+                android:id="@+id/wild"
+                android:background="@drawable/border_image"
+                android:padding="3dp"
+                android:layout_width="180dp"
+                android:layout_margin="7dp"
+                android:layout_height="125dp"
+                android:src="@drawable/wild"
+                android:contentDescription="@string/category2"/>
+
+            <ImageView
+                android:id="@+id/domestic"
+                android:background="@drawable/border_image"
+                android:padding="3dp"
+                android:layout_width="180dp"
+                android:layout_margin="7dp"
+                android:layout_height="125dp"
+                android:src="@drawable/domestic"
+                android:contentDescription="@string/category3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/birdsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_green"
+                android:onClick="clickButton"
+                android:padding="5dp"
+                android:text="@string/category1"
+                android:textColor="@color/buttonText"
+                android:textSize="25sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/wildBtn"
+                android:onClick="clickButton"
+                android:textColor="@color/buttonText"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_margin="4dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_red"
+                android:layout_height="wrap_content"
+                android:text="@string/category2" />
+
+            <Button
+                android:id="@+id/domesticBtn"
+                android:onClick="clickButton"
+                android:textColor="@color/buttonText"
+                android:textSize="25sp"
+                android:layout_margin="4dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/button_orange"
+                android:layout_height="wrap_content"
+                android:text="@string/category3" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="220dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/share_512"
+                android:onClick="clickButton"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/share"
+                android:src="@drawable/share_512" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

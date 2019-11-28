@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/appBackGround"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/appTitleText"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="@string/category2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                    android:id="@+id/wild1"
+                    android:onClick="clickButton"
+                    android:layout_margin="7dp"
+                    android:background="@drawable/border_image"
+                    android:padding="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/wild1"
+                      android:contentDescription="@string/wild1" />
+
+                    <ImageView
+                        android:id="@+id/wild2"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild2"
+                        android:contentDescription="@string/wild2" />
+
+
+                    <ImageView
+                        android:id="@+id/wild3"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild3"
+                        android:contentDescription="@string/wild3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/wild4"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild4"
+                        android:contentDescription="@string/wild4" />
+
+                    <ImageView
+                        android:id="@+id/wild5"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild5"
+                        android:contentDescription="@string/wild5" />
+
+
+                    <ImageView
+                        android:id="@+id/wild6"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild6"
+                        android:contentDescription="@string/wild6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/wild7"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild7"
+                        android:contentDescription="@string/wild7" />
+
+                    <ImageView
+                        android:id="@+id/wild8"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild8"
+                        android:contentDescription="@string/wild8" />
+
+
+                    <ImageView
+                        android:id="@+id/wild9"
+                        android:onClick="clickButton"
+                        android:layout_margin="7dp"
+                        android:background="@drawable/border_image"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wild9"
+                        android:contentDescription="@string/wild9" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/go_back"
+                        android:onClick="clickButton"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/go_back_image"
+                        android:contentDescription="@string/go_back"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

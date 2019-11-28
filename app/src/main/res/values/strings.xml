@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Sound_Game</string>
+    <string name="category1">Birds</string>
+    <string name="category2">Wild</string>
+    <string name="category3">Domestic</string>
+    <string name="Birds1">Turkey</string>
+    <string name="Birds2">Swan</string>
+    <string name="Birds3">Chick</string>
+    <string name="Birds4">Flamingo</string>
+    <string name="Birds5">Seagull</string>
+    <string name="Birds6">Chicken</string>
+    <string name="Birds7">Sparrow</string>
+    <string name="Birds8">Owl</string>
+    <string name="Birds9">Stork</string>
+    <string name="go_back">go_back</string>
+
+    <string name="wild1">Penguin</string>
+    <string name="wild2">Crocodale</string>
+    <string name="wild3">Wolf</string>
+    <string name="wild4">Elephant</string>
+    <string name="wild5">Monkey</string>
+    <string name="wild6">Zebra</string>
+    <string name="wild7">Bear</string>
+    <string name="wild8">Giraffe</string>
+    <string name="wild9">Tiger</string>
+
+    <string name="domestic1">Sheep</string>
+    <string name="domestic2">Dog</string>
+    <string name="domestic3">Rabbit</string>
+    <string name="domestic4">Fish</string>
+    <string name="domestic5">Mice</string>
+    <string name="domestic6">Chicken</string>
+    <string name="domestic7">Cow</string>
+    <string name="domestic8">Deer</string>
+    <string name="domestic9">Squirrel</string>
+
+    <string name="share">share button</string>
+
+    <string name="invite">Invite friends</string>
+    <string name="msg_invite1">I want to invite you to download cool sound game.</string>
+    <string name="msg_invite2">Share</string>
+
+    <string name="exit">Thank you for visiting</string>
+</resources>
